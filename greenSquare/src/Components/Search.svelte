@@ -54,7 +54,7 @@
     .search-input{
         font-size: 15px;
         color: black;
-        background: #d2efe4;
+        background: #f0f6f4;
         width: 400px;
         height: 24px;   
         border-radius: 60px;
