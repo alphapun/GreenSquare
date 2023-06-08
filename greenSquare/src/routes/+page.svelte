@@ -65,7 +65,6 @@
     @media (max-width:450px){
         .cover .lm{
             margin-left: 35%;            
-
         }
     }
 </style>

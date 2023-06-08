@@ -1,5 +1,4 @@
 <script>
-
     import { fade } from "svelte/transition";
     export let visible = true;
     let seacrhAppear;
@@ -61,5 +60,10 @@
         display: block;
         padding: 5px;
         border: 1px solid #ccc;
+    }
+    @media (max-width:690px){
+        img{
+            display: none;
+        }
     }
   </style>
