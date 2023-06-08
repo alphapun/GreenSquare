@@ -8,7 +8,7 @@
     </div>
     <Search/>
     <div class="user">
-        <img src="src\Assets\user.png" alt="user">
+        <img src="src/Assets/user.png" alt="user">
         <img src="src\Assets\cart.png" alt="cart">
     </div>  
 </header>
