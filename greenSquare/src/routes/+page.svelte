@@ -1,12 +1,13 @@
 <script>
-	import Header from './../Components/Header.svelte';
+import CardsCat from '../Components/cardsCat.svelte';
+import Header from './../Components/Header.svelte';
 </script>
 <Header/>
 <div class="cover">
     <div class="text">Empowering Communities,<br/>Promoting Sustainability: Your One-Stop Destination for Local,<br/>Organic, and Preloved Treasures!</div>
     <button class="lm">Learn More</button>
 </div>
-
+<CardsCat/>
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');

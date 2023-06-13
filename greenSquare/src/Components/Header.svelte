@@ -74,7 +74,7 @@
         height: 30px;
     }
     .sidebar{
-        background-color: green;
+        background-color: rgb(106, 156, 106);
         left: 0;
         top: 50px;
         display: flex;
