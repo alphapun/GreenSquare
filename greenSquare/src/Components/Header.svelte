@@ -1,4 +1,5 @@
 <script>
+	import { authHandlers } from './../store/store.js';
 	import { fly } from 'svelte/transition';
     import Search from "./Search.svelte";
     let screenSize;
@@ -30,7 +31,7 @@
     <Search/>
     <div class="user">
         <a href="/login"><img src="src/Assets/user.png" alt="user"></a>
-        <img src="src\Assets\cart.png" alt="cart">
+        <button on:click={authHandlers.logout}><img src="src\Assets\cart.png" alt="cart"></button>
     </div>  
 </header>
 

@@ -3,7 +3,7 @@
 </script>
 <div class="cover">
     <div class="text">Empowering Communities,<br/>Promoting Sustainability: Your One-Stop Destination for Local,<br/>Organic, and Preloved Treasures!</div>
-    <button class="lm">Learn More</button>
+    <a href="/faq"><button class="lm">Learn More</button></a>
 </div>
 <div class="intro">
     <div class="content">

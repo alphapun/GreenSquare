@@ -6,7 +6,7 @@
         <div class="product-card">
             <div class="product-image">
                 <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
+                <a href="/products"><button class="card-btn">Buy</button></a>
             </div>
             <div class="product-info">
                 <h2 class="product-brand">Tomato</h2>
