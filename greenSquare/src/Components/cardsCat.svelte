@@ -1,5 +1,5 @@
 <section class="product"> 
-    <h2 class="product-category">Products Near you</h2>
+    <h2 class="product-category">New products</h2>
     <!-- <button class="pre-btn"><img src="src\Assets\right.png" alt="PREV"></button>
     <button class="nxt-btn"><img src="src\Assets\right.png" alt="NEXT"></button> -->
     <div class="product-container">

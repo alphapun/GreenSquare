@@ -24,12 +24,12 @@
     {/if}
     
     <div class="logo">
-        <img src="src\Assets\logo.png" alt="logo">
+       <a href="/"><img src="src\Assets\logo.png" alt="logo"></a>
         <div class="name">Green<br/>Square</div>
     </div>
     <Search/>
     <div class="user">
-        <img src="src/Assets/user.png" alt="user">
+        <a href="/login"><img src="src/Assets/user.png" alt="user"></a>
         <img src="src\Assets\cart.png" alt="cart">
     </div>  
 </header>
@@ -70,8 +70,12 @@
         font-family: 'Amatic SC', cursive;
         font-size: 20px;
     }
+    .user{
+        display: flex;
+    }
     .user img{
         height: 30px;
+        cursor: pointer;
     }
     .sidebar{
         background-color: rgb(106, 156, 106);
@@ -84,8 +88,10 @@
         gap: 30px;
         position: fixed;
         width: 100vw;
-        height: calc(100vh - 65px);
+        /* height: calc(100vh - 60px); */
+        height: 100vh;
         align-items: center;
+        z-index: 100;
     }
     .sidebar .item{
         /* border: 2px solid blue; */

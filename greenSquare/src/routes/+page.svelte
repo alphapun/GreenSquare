@@ -1,16 +1,22 @@
 <script>
-import CardsCat from '../Components/cardsCat.svelte';
-import Header from './../Components/Header.svelte';
+    import CardsCat from '../Components/cardsCat.svelte';
 </script>
-<Header/>
 <div class="cover">
     <div class="text">Empowering Communities,<br/>Promoting Sustainability: Your One-Stop Destination for Local,<br/>Organic, and Preloved Treasures!</div>
     <button class="lm">Learn More</button>
+</div>
+<div class="intro">
+    <div class="content">
+        <h3>Why are we the best?</h3>
+        <p>We make everyone more easier to sell their products as well as buy them. No need of middle men .
+         Not only fruits and veggies , sell any items that you produce . Support your local producers directly !!!</p>
+    </div>
 </div>
 <CardsCat/>
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
     *{
         padding: 0;
         margin: 0;
@@ -55,6 +61,55 @@ import Header from './../Components/Header.svelte';
         background-color: transparent;
         border: 2px solid antiquewhite;
     }
+    .intro{
+        padding: 3.5%;
+        display: flex;
+        width:95%;
+        margin: 2% auto;
+        background-image: url("src/Assets/back.jpg");
+        opacity: 0.9;
+        border-radius: 13px;
+    }
+    
+    .intro h3 {
+        font-family: 'Geologica', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 48px;
+        color: whitesmoke;
+    }
+    
+    .intro p {
+        margin-top: 1%;
+        font-family: 'Geologica', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 32px;
+        color:antiquewhite;
+    }
+     /* @media (max-width:1280px){
+        .intro img{
+            height: 22vw;
+            left:75%;
+            top: -5%
+        }
+    }
+    @media (max-width:1048px){
+        .intro img{
+            height: 24vw;
+            left:75%;
+            top: -5%
+        }
+    }
+    @media (max-width:800px){
+        .intro img{
+            height: 24vw;
+            left:50%;
+            top: -5%
+        }
+    } */
     @media (max-width:1000px){
         .cover{
             height: 30rem;
