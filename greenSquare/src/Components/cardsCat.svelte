@@ -1,200 +1,76 @@
-<section class="product"> 
-    <h2 class="product-category">New products</h2>
-    <!-- <button class="pre-btn"><img src="src\Assets\right.png" alt="PREV"></button>
-    <button class="nxt-btn"><img src="src\Assets\right.png" alt="NEXT"></button> -->
-    <div class="product-container">
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <a href="/products"><button class="card-btn">Buy</button></a>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
-        <div class="product-card">
-            <div class="product-image">
-                <img src="src\Assets\tomato.jpg" class="product-thumb" alt="">
-                <button class="card-btn">Buy</button>
-            </div>
-            <div class="product-info">
-                <h2 class="product-brand">Tomato</h2>
-                <span class="price">$20</span>
-            </div>
-        </div>
+<h2>Meet the Developers</h2>
+
+<div class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="src\Assets\person.jpg" alt="Developer 1">
+        <h3>Eby Kurian</h3>
+        <p>example@gmail.com</p>
+      </div>
+      <div class="carousel-item">
+        <img src="src\Assets\person.jpg" alt="Developer 2">
+        <h3>Gautham Suresh</h3>
+        <p>example@gmail.com</p>
+      </div>
+      <div class="carousel-item">
+        <img src="src\Assets\person.jpg" alt="Developer 3">
+        <h3>Ebin J Alapatt</h3>
+        <p>example@gmail.com</p>
+      </div>
     </div>
-</section>
+</div>
 
-<style>
+  <style>
     @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
-    .product {
-        position: relative;
-        overflow: hidden;
-        padding: 20px;
-    }
 
-    .product-category {
+    h2{
+        margin-left: 3%;
+        font-size: 30px;
         font-family: 'Geologica', sans-serif;
-        font-size: 40px;
-        font-weight: 500;
-        margin-bottom: 40px;
+    }
+    .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
     }
 
-    .product-container {
-        display: flex;    
+    .carousel-inner {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        gap: 15rem;
+    }
+
+    .carousel-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    }
+
+    .carousel-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    }
+
+    .carousel h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    }
+
+    .carousel p {
+    font-size: 16px;
+    color: #888;
+    }
+    @media(max-width: 927px ){
+        .carousel-inner {
+        gap: 100px;
         overflow-x: auto;
-        scroll-behavior: smooth;
     }
-
-    .product-container::-webkit-scrollbar {
-        display: none;
-    }
-
-    .product-card {
-        flex: 0 0 auto;
-        width: 250px;
-        height: 450px;
-        margin-right: 40px;
-    }
-
-    .product-image {
-        position: relative;
-        width: 100%;
-        height: 350px;
-        overflow: hidden;
-    }
-
-    .product-thumb {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        border-radius: 3%;
-    }
-
-    .card-btn {
-        position: absolute;
-        bottom: 10px;
-        left: 50%;
-        transform: translateX(-50%);
-        padding: 10px;
-        width: 90%;
-        text-transform: capitalize;
-        border: none;
-        outline: none;
-        background: #fff;
-        border-radius: 5px;
-        transition: 0.5s;
-        cursor: pointer;
-        opacity: 0;
-    }
-
-    .product-card:hover .card-btn {
-        opacity: 1;
-    }
-
-    .card-btn:hover {
-        color: green;
-    }
-
-    .product-info {
-        width: 100%;
-        height: 100px;
-        padding-top: 10px;
-    }
-
-    .product-brand {
-        text-transform: uppercase;
-    }
-
-    .price {
-        font-weight: 900;
-        font-size: 20px;
-    }
-    @media(max-width:399px){
-        .product-category{
-            font-size: 30px;
-        }
-
     }
 </style>

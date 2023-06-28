@@ -10,6 +10,8 @@
         <h3>Why are we the best?</h3>
         <p>We make everyone more easier to sell their products as well as buy them. No need of middle men .
          Not only fruits and veggies , sell any items that you produce . Support your local producers directly !!!</p>
+         <br>
+        <a href="/products">Try Now>></a>
     </div>
 </div>
 <CardsCat/>
@@ -63,6 +65,7 @@
     }
     .intro{
         padding: 3.5%;
+        /* height: 40vh; */
         display: flex;
         width:95%;
         margin: 2% auto;
@@ -80,7 +83,7 @@
         color: whitesmoke;
     }
     
-    .intro p {
+    .intro p{
         margin-top: 1%;
         font-family: 'Geologica', sans-serif;
         font-style: normal;
@@ -88,6 +91,18 @@
         font-size: 21px;
         line-height: 32px;
         color:antiquewhite;
+    }
+    .intro a{
+        margin-top: 5%;
+        padding: 2px;
+        font-family: 'Geologica', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 21px;
+        line-height: 32px;
+        color:antiquewhite;
+        border: 2px solid antiquewhite;
+        border-radius: 5px;
     }
      /* @media (max-width:1280px){
         .intro img{

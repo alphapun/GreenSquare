@@ -34,7 +34,6 @@
         register = !register;
     }
 </script>
-
 <div class="authContainer">
     <form>
         <h1>{register ? "Register" : "Login"}</h1>
@@ -45,7 +44,7 @@
             <p class={email ? " above" : " center"}>Email</p>
             <input bind:value={email} type="email" placeholder="Email" />
         </label>
-        <label>
+        <label> 
             <p class={password ? " above" : " center"}>Password</p>
             <input
                 bind:value={password}
