@@ -1,4 +1,5 @@
 <script>
+    import Footer from '../Components/Footer.svelte';
     import CardsCat from '../Components/cardsCat.svelte';
 </script>
 <div class="cover">
@@ -139,3 +140,4 @@
         }
     }
 </style>
+<Footer/>

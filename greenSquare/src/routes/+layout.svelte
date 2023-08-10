@@ -30,4 +30,3 @@
 </script>
 <Header/>
 <slot />
-<Footer/>

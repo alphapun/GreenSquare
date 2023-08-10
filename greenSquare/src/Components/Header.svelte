@@ -17,9 +17,8 @@
     {#if showNav}
         {#if screenSize<1000}
             <div class="sidebar" transition:fly="{{ x:-100, duration: 1000 }}">
-                <div class="item 1">shop</div>
-                <div class="item 2">cart</div>
-                <div class="item 3">search</div>
+                <div class="item 1">Sign In</div>
+                <a href="/products"><div class="item 2">Shop</div></a>
             </div>
         {/if}
     {/if}

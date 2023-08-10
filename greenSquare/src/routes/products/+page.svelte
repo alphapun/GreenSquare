@@ -1,6 +1,7 @@
 <script>
-  import AddProduct from '../../Components/AddProduct.svelte';
+  
   import Modal from '../../Components/Modal.svelte';
+    import AddProduct from '../../Components/addProduct.svelte';
 
 
   let showModal = false;
@@ -34,6 +35,7 @@
 
 <main>
   <button id="add" on:click={toggleModal}>Add products</button>
+  <div class="gap"></div>
   <div class="product-cards">
     {#each products as product (product.id)}
       <div class="product-card">
@@ -55,6 +57,9 @@
     border-radius: 8px;
     padding: 5px;
     margin-top: 15px;
+  }
+  .gap{
+    margin: 2%;
   }
   h4{
     font-weight: 900;
